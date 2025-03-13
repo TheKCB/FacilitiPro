@@ -1,14 +1,25 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #222, #555);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 h1 {
-  color: #333;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
 
 .login-container, .shop-container, .machines-container, .maintenance-container {
   max-width: 600px;
